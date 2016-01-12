@@ -6,7 +6,7 @@ class CreateHints < ActiveRecord::Migration
       t.float :lat
       t.float :lon
       t.integer :found_by
-      t.id :next_hint
+      t.integer :next_hint
 
       t.timestamps null: false
     end
