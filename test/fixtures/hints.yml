@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  riddle: MyText
+  found: false
+  lat: 1.5
+  lon: 1.5
+  found_by: 1
+  next_hint: 
+
+two:
+  riddle: MyText
+  found: false
+  lat: 1.5
+  lon: 1.5
+  found_by: 1
+  next_hint: 

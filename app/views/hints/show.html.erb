@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Riddle:</strong>
+  <%= @hint.riddle %>
+</p>
+
+<p>
+  <strong>Found:</strong>
+  <%= @hint.found %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @hint.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @hint.lon %>
+</p>
+
+<p>
+  <strong>Found by:</strong>
+  <%= @hint.found_by %>
+</p>
+
+<p>
+  <strong>Next hint:</strong>
+  <%= @hint.next_hint %>
+</p>
+
+<%= link_to 'Edit', edit_hint_path(@hint) %> |
+<%= link_to 'Back', hints_path %>
