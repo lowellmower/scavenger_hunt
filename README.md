@@ -1,4 +1,4 @@
-== NYC Scavenger Hunt
+==NYC Scavenger Hunt
 
 Ultimately, this will be the home for the New York City Scavenger hunt. The hunt will include aproximately ~12 Eddystone Bluetooth Beacons which will communnicate various URLs. Using Rails backend, this application will provide a series of hints and progress to users as they search for the final beacon and win the grand prize. 
 
